@@ -1,6 +1,7 @@
 ## This project is about calculating inverse of an input
 ## matrix. However, to avoid same calculations everytime,
-## the output is cached into a dataframe (if one does not exist)
+## the output is cached into a dataframe (createsif one 
+## does not exist)
 
 
 ## Returns a special vector of various details pertaining to input matrix
@@ -29,7 +30,8 @@ makeCacheMatrix <- function(x = numeric()) {
 
 ## Returns the inverse of input matrix. The input matrix data
 ## is however given as input in the form of special vector (generated 
-## in the makeCachematrix function)
+## in the makeCachematrix function). The function first checks if
+## the data is already available in cache
 cacheSolve <- function(x, ...) {
     
     ## Assign getInv column of dataframe : cached data
