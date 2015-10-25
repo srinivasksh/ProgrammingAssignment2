@@ -1,6 +1,6 @@
 ## This project is about calculating inverse of an input
 ## matrix. However, to avoid same calculations everytime,
-## the output is cached into a dataframe (createsif one 
+## the output is cached into a dataframe (creates if one 
 ## does not exist)
 
 
